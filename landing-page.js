@@ -371,5 +371,9 @@ document.addEventListener("DOMContentLoaded", function() {
 var intro = document.getElementById("intro");
 
 document.addEventListener("DOMContentLoaded", function() {
-  intro.style.opacity = "0";
+  intro.style.opacity = "1";
+
+  window.addEventListener("load", function() {
+    intro.style.opacity = "0";
+  })
 })
