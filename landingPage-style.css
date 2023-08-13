@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Goudy";
-    src: url(../Fonts/Goudy);
+    src: url(../Fonts/Goudy-SmallCaps.woff2);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
     background-color: hsl(0, 0%, 0%);
 
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 
@@ -27,10 +27,10 @@ div#intro {
     overflow: hidden;
 
     background-color: black;
-    opacity: 0;
+    opacity: 1;
 
-    z-index: 200;
-    transition: opacity 3s ease-in;
+    z-index: 999;
+    transition: opacity 2s ease-in;
     pointer-events: none;
 }
 

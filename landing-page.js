@@ -1,123 +1,123 @@
 var imagePaths = [
     {
-      preview: "../Works/Images/30/Preview.jpg",
-      hover: ["../Works/Images/30/1.jpg", "../Works/Images/30/2.jpg", "../Works/Images/30/Preview.jpg"]
+      preview: "../Images/Content/30/Preview.jpg",
+      hover: ["../Images/Content/30/1.jpg", "../Images/Content/30/2.jpg", "../Images/Content/30/Preview.jpg"]
     },
     {
-      preview: "../Works/Images/29/Preview.jpg",
-      hover: ["../Works/Images/29/1.jpg", "../Works/Images/29/Preview.jpg"]
+      preview: "../Images/Content/29/Preview.jpg",
+      hover: ["../Images/Content/29/1.jpg", "../Images/Content/29/Preview.jpg"]
     },
     {
-      preview: "../Works/Images/28/Preview.jpg",
+      preview: "../Images/Content/28/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/27/Preview.jpg",
-      hover: ["../Works/Images/27/1.jpg", "../Works/Images/27/2.jpg", "../Works/Images/27/Preview.jpg"]
+      preview: "../Images/Content/27/Preview.jpg",
+      hover: ["../Images/Content/27/1.jpg", "../Images/Content/27/2.jpg", "../Images/Content/27/Preview.jpg"]
     },
     {
-      preview: "../Works/Images/26/Preview.jpg",
-      hover: ["../Works/Images/26/1.jpg", "../Works/Images/26/2.jpg", "../Works/Images/26/Preview.jpg"]
+      preview: "../Images/Content/26/Preview.jpg",
+      hover: ["../Images/Content/26/1.jpg", "../Images/Content/26/2.jpg", "../Images/Content/26/Preview.jpg"]
     },
     {
-      preview: "../Works/Images/25/Preview.jpg",
-      hover: ["../Works/Images/25/1.jpg", "../Works/Images/25/Preview.jpg"],
+      preview: "../Images/Content/25/Preview.jpg",
+      hover: ["../Images/Content/25/1.jpg", "../Images/Content/25/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/24/Preview.jpg",
-      hover: ["../Works/Images/24/1.jpg", "../Works/Images/24/Preview.jpg"],
+      preview: "../Images/Content/24/Preview.jpg",
+      hover: ["../Images/Content/24/1.jpg", "../Images/Content/24/Preview.jpg"],
       zIndex: "200"
     },
     {
-      preview: "../Works/Images/23/Preview.jpg",
-      hover: ["../Works/Images/23/1.jpg", "../Works/Images/23/Preview.jpg"],
+      preview: "../Images/Content/23/Preview.jpg",
+      hover: ["../Images/Content/23/1.jpg", "../Images/Content/23/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/22/Preview.jpg",
-      hover: ["../Works/Images/22/1.jpg", "../Works/Images/22/2.jpg", "../Works/Images/22/Preview.jpg"],
+      preview: "../Images/Content/22/Preview.jpg",
+      hover: ["../Images/Content/22/1.jpg", "../Images/Content/22/2.jpg", "../Images/Content/22/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/21/Preview.jpg",
-      hover: ["../Works/Images/21/1.jpg", "../Works/Images/21/Preview.jpg"],
+      preview: "../Images/Content/21/Preview.jpg",
+      hover: ["../Images/Content/21/1.jpg", "../Images/Content/21/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/20/Preview.jpg",
-      hover: ["../Works/Images/20/1.jpg", "../Works/Images/20/Preview.jpg"],
+      preview: "../Images/Content/20/Preview.jpg",
+      hover: ["../Images/Content/20/1.jpg", "../Images/Content/20/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/19/Preview.jpg",
-      hover: ["../Works/Images/19/1.jpg", "../Works/Images/19/Preview.jpg"],
+      preview: "../Images/Content/19/Preview.jpg",
+      hover: ["../Images/Content/19/1.jpg", "../Images/Content/19/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/18/Preview.jpg",
-      hover: ["../Works/Images/18/1.jpg", "../Works/Images/18/2.jpg", "../Works/Images/18/Preview.jpg"],
+      preview: "../Images/Content/18/Preview.jpg",
+      hover: ["../Images/Content/18/1.jpg", "../Images/Content/18/2.jpg", "../Images/Content/18/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/17/Preview.jpg",
-      hover: ["../Works/Images/17/1.jpg", "../Works/Images/17/Preview.jpg"],
+      preview: "../Images/Content/17/Preview.jpg",
+      hover: ["../Images/Content/17/1.jpg", "../Images/Content/17/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/16/Preview.jpg",
-      hover: ["../Works/Images/16/1.jpg", "../Works/Images/16/2.jpg", "../Works/Images/16/Preview.jpg"],
+      preview: "../Images/Content/16/Preview.jpg",
+      hover: ["../Images/Content/16/1.jpg", "../Images/Content/16/2.jpg", "../Images/Content/16/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/15/Preview.jpg",
-      hover: ["../Works/Images/15/1.jpg", "../Works/Images/15/2.jpg", "../Works/Images/15/3.jpg", "../Works/Images/15/Preview.jpg"],
+      preview: "../Images/Content/15/Preview.jpg",
+      hover: ["../Images/Content/15/1.jpg", "../Images/Content/15/2.jpg", "../Images/Content/15/3.jpg", "../Images/Content/15/Preview.jpg"],
     },
     {
-      preview: "../Works/Images/14/Preview.jpg",
+      preview: "../Images/Content/14/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/13/Preview.jpg",
+      preview: "../Images/Content/13/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/12/Preview.jpg",
+      preview: "../Images/Content/12/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/11/Preview.jpg",
+      preview: "../Images/Content/11/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/10/Preview.jpg",
+      preview: "../Images/Content/10/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/9/Preview.jpg",
+      preview: "../Images/Content/9/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/8/Preview.jpg",
+      preview: "../Images/Content/8/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/7/Preview.jpg",
+      preview: "../Images/Content/7/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/6/Preview.jpg",
+      preview: "../Images/Content/6/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/5/Preview.jpg",
+      preview: "../Images/Content/5/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/4/Preview.jpg",
+      preview: "../Images/Content/4/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/3/Preview.jpg",
+      preview: "../Images/Content/3/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/2/Preview.jpg",
+      preview: "../Images/Content/2/Preview.jpg",
       hover: [],
     },
     {
-      preview: "../Works/Images/1/Preview.jpg",
+      preview: "../Images/Content/1/Preview.jpg",
       hover: [],
     }
   ];
@@ -366,4 +366,10 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.removeChild(quickViewOverlay)
         })
     })
+})
+
+var intro = document.getElementById("intro");
+
+document.addEventListener("DOMContentLoaded", function() {
+  intro.style.opacity = "0";
 })
