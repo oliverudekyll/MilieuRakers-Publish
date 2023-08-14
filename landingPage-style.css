@@ -318,11 +318,10 @@ div.nav-bar a {
     width: 70%;
     height: 3rem;
     left: 50%;
-    translate: -50%;
-    transform: scale(1.6) translateY(-2rem);
-    -webkit-transform: scale(1.6) translateY(-2rem);
-    -moz-transform: scale(1.6) translateY(-2rem);
-    -o-transform: scale(1.6) translateY(-2rem);
+    transform: scale(1.6) translateX(-50%) translateY(-2rem);
+    -webkit-transform: scale(1.6) translateX(-50%) translateY(-2rem);
+    -moz-transform: scale(1.6) translateX(-50%) translateY(-2rem);
+    -o-transform: scale(1.6) translateX(-50%) translateY(-2rem);
 
 
     filter: invert(.65);
