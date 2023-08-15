@@ -376,4 +376,4 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("load", function() {
     intro.style.opacity = "0";
   })
-})
+})  
