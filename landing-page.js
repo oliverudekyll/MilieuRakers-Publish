@@ -377,3 +377,13 @@ document.addEventListener("DOMContentLoaded", function() {
     intro.style.opacity = "0";
   })
 })  
+
+var video = document.getElementById('video');
+
+function toggleVideoPlayback() {
+  if (video.paused) {
+    video.play();
+  } else {
+    video.play();
+  }
+}
