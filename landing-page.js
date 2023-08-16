@@ -386,7 +386,7 @@ Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
   }
 });
 
-document.body.addEventListener('click', function () {
+document.addEventListener("DOMContentLoaded", function () {
   const videoElement = document.getElementById('video');
   if (videoElement.playing) {
   } else {
