@@ -386,7 +386,7 @@ Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
   }
 });
 
-document.body.addEventListener("click" || "scroll", function () {
+document.body.addEventListener("click", function () {
   const videoElement = document.getElementById('video');
   if (videoElement.playing) {
   } else {
