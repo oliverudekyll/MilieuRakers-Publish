@@ -382,14 +382,14 @@ var video = document.getElementById('video');
 
 Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
   get: function () {
-      return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-  }});
+    return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+  }
+});
 
-  $('body').on('click touchstart', function () {
-    const videoElement = document.getElementById('home_video');
-    if (videoElement.playing) {
-    }
-    else {
-        videoElement.play();
-    }
+document.body.addEventListener('click', function () {
+  const videoElement = document.getElementById('video');
+  if (videoElement.playing) {
+  } else {
+    videoElement.play();
+  }
 });
