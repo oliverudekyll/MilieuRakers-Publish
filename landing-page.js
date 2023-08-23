@@ -397,7 +397,7 @@ document.body.addEventListener("click", function () {
 
 
 var works = document.querySelectorAll(".works");
-    var articles = document.querySelectorAll(".article");
+var articles = document.querySelectorAll(".article");
 
     function isInViewport(element) {
       const rect = element.getBoundingClientRect();
@@ -412,7 +412,7 @@ var works = document.querySelectorAll(".works");
         image.classList.remove('active-works');
       });
       articles.forEach(function (div) {
-        div.classList.remove('active-article');
+        div.style.zIndex = "1";
       });
     }
 
@@ -422,9 +422,10 @@ var works = document.querySelectorAll(".works");
         works.forEach(function (image) {
           if (isInViewport(image)) {
             image.classList.add('active-works');
-            articles.forEach(function (div) {
-              div.classList.add('active-article');
-            });
+            var articleIndex = Array.from(works).indexOf(image);
+            if (articleIndex >= 0) {
+              articles[articleIndex].style.zIndex = "999";
+            }
           }
         });
       } else {
@@ -433,6 +434,8 @@ var works = document.querySelectorAll(".works");
     }
 
     document.addEventListener("DOMContentLoaded", function () {
+      var imgContainer = document.getElementById("feed");
+      handleViewportStyles();
 
       imgContainer.addEventListener("scroll", function () {
         handleViewportStyles();

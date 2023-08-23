@@ -160,9 +160,10 @@ div.article:hover {
     transform: scale(1.01);
   }
 
-  .active-article {
+.active-article {
+    position: relative;
     z-index: 999;
-  }
+}
 
 
 .quick-view-overlay {
@@ -428,7 +429,9 @@ a.quick-view-contact-buttons:hover {
     }
     
     div.article {
+        position: relative;
         flex-basis: 100%;
+        z-index: 1;
     }
     
     .works {
@@ -445,16 +448,26 @@ a.quick-view-contact-buttons:hover {
         cursor: zoom-in;
     }
     
-    .works:hover {
+/*     .works:hover {
         filter: grayscale(.6) brightness(.6);
         -webkit-filter: grayscale(.6) brightness(.6);
         transform: scale(1);
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -o-transform: scale(1);
-    }
+    } */
     
     div.article:hover {
+        z-index: 999;
+    }
+
+    .active-works {
+        filter: grayscale(0) brightness(1) drop-shadow(0px 5px 30px black);
+        transform: scale(1.01);
+      }
+    
+    .active-article {
+        position: relative;
         z-index: 999;
     }
 
