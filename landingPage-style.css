@@ -154,6 +154,16 @@ div.article:hover {
     z-index: 999;
 }
 
+.active-works {
+    filter: grayscale(0) brightness(1) drop-shadow(0px 5px 30px black);
+    transform: scale(1.01);
+  }
+
+  .active-article {
+    z-index: 999;
+  }
+
+
 .quick-view-overlay {
     position: fixed;
     top: 0;

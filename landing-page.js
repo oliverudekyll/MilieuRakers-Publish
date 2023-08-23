@@ -393,3 +393,52 @@ document.body.addEventListener("click", function () {
     videoElement.play();
   }
 });
+
+
+
+var works = document.querySelectorAll(".works");
+    var articles = document.querySelectorAll(".article");
+
+    function isInViewport(element) {
+      const rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+      );
+    }
+
+    function resetStyles() {
+      works.forEach(function (image) {
+        image.classList.remove('active-works');
+      });
+      articles.forEach(function (div) {
+        div.classList.remove('active-article');
+      });
+    }
+
+    function handleViewportStyles() {
+      if (window.innerWidth <= 850) {
+        resetStyles();
+        works.forEach(function (image) {
+          if (isInViewport(image)) {
+            image.classList.add('active-works');
+            articles.forEach(function (div) {
+              div.classList.add('active-article');
+            });
+          }
+        });
+      } else {
+        resetStyles();
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+      imgContainer.addEventListener("scroll", function () {
+        handleViewportStyles();
+      });
+
+      window.addEventListener("resize", function () {
+        handleViewportStyles();
+      });
+    });
