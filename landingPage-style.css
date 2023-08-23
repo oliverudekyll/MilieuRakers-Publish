@@ -117,6 +117,7 @@ div.article {
     width: auto;
     display: flex;
     transition: transform .3s ease-in-out;
+    z-index: 1;
 }
 
 .works {
