@@ -435,7 +435,6 @@ var articles = document.querySelectorAll(".article");
 
     document.addEventListener("DOMContentLoaded", function () {
       var imgContainer = document.getElementById("feed");
-      handleViewportStyles();
 
       imgContainer.addEventListener("scroll", function () {
         handleViewportStyles();
