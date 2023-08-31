@@ -218,7 +218,7 @@ var imagePaths = [
           currentImageIndex = (currentImageIndex + 1) % hoverImages.length;
         }
   
-        var interval = setInterval(cycleImages, 1000);
+        var interval = setInterval(cycleImages, 1500);
   
         image.addEventListener("mouseout", function () {
           clearInterval(interval);
