@@ -42,7 +42,8 @@ var imagePaths = [
     },
     {
       preview: "../Images/Content/26/Preview.jpg",
-      hover: ["../Images/Content/26/1.jpg", "../Images/Content/26/2.jpg", "../Images/Content/26/Preview.jpg"]
+      hover: ["../Images/Content/26/1.jpg", "../Images/Content/26/2.jpg", "../Images/Content/26/Preview.jpg"],
+      zIndex: "200"
     },
     {
       preview: "../Images/Content/25/Preview.jpg",
