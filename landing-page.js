@@ -1,8 +1,7 @@
 var imagePaths = [
     {
       preview: "../Images/Content/38/Preview.jpg",
-      hover: ["../Images/Content/38/1.jpg", "../Images/Content/38/Preview.jpg"],
-      zIndex: "200"
+      hover: ["../Images/Content/38/1.jpg", "../Images/Content/38/Preview.jpg"]
     },
     {
       preview: "../Images/Content/37/Preview.jpg",
