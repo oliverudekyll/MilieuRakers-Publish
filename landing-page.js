@@ -475,6 +475,8 @@ var articles = document.querySelectorAll(".article");
       });
 
       window.addEventListener("resize", function () {
-        handleViewportStyles();
+        if (this.window.innerWidth <= 850) {
+          handleViewportStyles();
+        }
       });
     });
