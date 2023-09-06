@@ -480,3 +480,15 @@ var articles = document.querySelectorAll(".article");
         }
       });
     });
+
+
+    const windowScrollY = window.scrollY;
+
+    // Add an event listener to the window's scroll event
+    window.addEventListener('scroll', () => {
+    // Calculate the scroll position of the target div based on window's scroll
+    const targetScrollY = windowScrollY + window.scrollY;
+
+    // Set the scroll position of the target div
+    imgContainer.scrollTop = windowScrollY;
+    });
