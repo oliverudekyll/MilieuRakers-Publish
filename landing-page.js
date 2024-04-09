@@ -1,4 +1,11 @@
-var imagePaths = [
+var imagePaths = [{
+      preview: "../Images/Content/62/Preview.jpg",
+      hover: ["../Images/Content/62/1.jpg", "../Images/Content/62/Preview.jpg"]
+    },
+    {
+      preview: "../Images/Content/61/Preview.jpg",
+      hover: ["../Images/Content/61/1.jpg", "../Images/Content/61/2.jpg", "../Images/Content/61/Preview.jpg"]
+    },
     {
       preview: "../Images/Content/60/Preview.jpg",
       hover: ["../Images/Content/60/1.jpg", "../Images/Content/60/Preview.jpg"]
