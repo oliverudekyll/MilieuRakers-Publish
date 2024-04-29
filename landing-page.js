@@ -1,5 +1,9 @@
 var imagePaths = [
       {
+      preview: "../Images/Content/67/Preview.jpg",
+      hover: ["../Images/Content67/1.jpg", "../Images/Content/67/2.jpg", "../Images/Content/67/3.jpg", "../Images/Content/67/Preview.jpg"],
+    },
+      {
       preview: "../Images/Content/66/Preview.jpg",
       hover: []
     },
